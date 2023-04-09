@@ -1,19 +1,19 @@
 {
-  "schema_version": "v1",
-  "name_for_model": "retrieval",
-  "name_for_human": "Retrieval Plugin",
-  "description_for_model": "Plugin for searching through the user's documents (such as files, emails, and more) to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be found in their personal information.",
-  "description_for_human": "Search through your documents.",
-  "auth": {
-    "type": "user_http",
-    "authorization_type": "bearer"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://your-app-url.com/.well-known/openapi.yaml",
-    "has_user_authentication": false
-  },
-  "logo_url": "https://your-app-url.com/.well-known/logo.png",
-  "contact_email": "hello@contact.com", 
-  "legal_info_url": "http://example.com/legal-info"
-}
+    "schema_version": "v1",
+    "name_for_model": "mulesoft_and_docs",
+    "name_for_human": "Mulesoft GPT",
+    "description_for_model": "Use this tool to get up to date information about mulesoft, mulesoft connectors, dataweave examples. Do not use this tool if the user does not ask about mulesoft or dataweave.",
+    "description_for_human": "Mulesoft website documents.",
+    "auth": {
+      "type": "user_http",
+      "authorization_type": "bearer"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "https://mulesoft-gpt.herokuapp.com/.well-known/openapi.yaml",
+      "has_user_authentication": false
+    },
+    "logo_url": "https://your-app-url.com/.well-known/logo.png",
+    "contact_email": "hello@contact.com",
+    "legal_info_url": "hello@legal.com"
+  }
