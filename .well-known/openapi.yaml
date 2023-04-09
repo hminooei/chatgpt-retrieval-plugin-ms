@@ -1,10 +1,10 @@
 openapi: 3.0.2
 info:
   title: Retrieval Plugin API
-  description: A retrieval API for querying and filtering documents based on natural language queries and metadata
+  description: This API let's you search through the docs.mulesoft.com
   version: 1.0.0
 servers:
-  - url: https://your-app-url.com
+  - url: https://mulesoft-gpt.herokuapp.com/
 paths:
   /upsert:
     post:
